@@ -38,7 +38,7 @@ down:
 
 install:
 	@echo "${YELLOW}Installing the project...${COLOR_END}"
-	docker-compose run node yarn install
+	docker-compose run node npm install
 
 lint:
 	@echo "${YELLOW}Checking coding styles...${COLOR_END}"
