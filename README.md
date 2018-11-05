@@ -1,6 +1,12 @@
 # nextjs-project-skel
 
+## 关于
+
 ## 安装步骤
+
+0. 准备工作
+
+- 在你的机器上安装好docker
 
 1. 克隆仓库
 
@@ -18,6 +24,8 @@ cd nextjs-project-skel
 
 3. 构建docker镜像
 
+- 启动docker
+- 执行build开发镜像
 ```
 make build
 ```
@@ -27,3 +35,6 @@ make build
 ```
 make up
 ```
+
+## 如何开发
+
