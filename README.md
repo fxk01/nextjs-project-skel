@@ -10,13 +10,15 @@
 
 它集成了以下开发库
 
-- 它使用 next.js 作为后端开发语言
-- 它使用 Redux 管理状态
-- 它使用 Redux saga 进行浏览器端的后台刷新控制
-- 它使用 bootstrap 4 来方便你快速定义样式
-- 它支持 knex + postgresql 来管理数据
+- 它集成 [next.js](https://nextjs.org/) 作为后端开发语言
+- 它集成 [React](https://reactjs.org) 作为前端开发语言
+- 它集成 [Redux](https://redux.js.org/) 进行状态管理
+- 它集成 [Redux saga](https://redux-saga.js.org/) 进行浏览器端的异步管理控制
+- 它集成 [bootstrap 4](https://getbootstrap.com/) 来方便你快速定义样式
+- 它集成 [knex](https://knexjs.org/) 来管理数据库
+- 它支持 [Postgres](https://www.postgresql.org/) 和[SQLite 3](https://sqlite.org/index.html) 数据库
 
-此外，你还可以通过其管理工具集成更多的开发库
+此外，你还可以通过管理工具集成更多的开发库及扩展更多支持
 
 ### 开发环境
 
