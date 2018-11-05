@@ -40,8 +40,6 @@
 
 ```
 git clone https://github.com/QUSEIT/nextjs-project-skel.git
-
-# OR git clone git@github.com:QUSEIT/nextjs-project-skel.git
 ```
 
 2. 进入对应目录
