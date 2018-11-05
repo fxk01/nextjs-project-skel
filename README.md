@@ -34,7 +34,7 @@
 
 0. 准备工作
 
-- 在你的机器上安装好docker
+- 在你的机器上安装好docker并启动
 
 1. 克隆仓库
 
@@ -48,12 +48,10 @@ git clone https://github.com/QUSEIT/nextjs-project-skel.git
 cd nextjs-project-skel
 ```
 
-3. 构建docker镜像
+3. 安装相应库及构建docker镜像
 
-- 启动docker
-- 执行build开发镜像
 ```
-make build
+make install
 ```
 
 4. 启动docker
