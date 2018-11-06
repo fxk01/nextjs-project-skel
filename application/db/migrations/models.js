@@ -4,7 +4,6 @@ exports.up = function(knex, Promise) {
       table.increments("id").unsigned().primary();
       table.string("title");
   })
-
 };
 
 exports.down = function(knex, Promise) {

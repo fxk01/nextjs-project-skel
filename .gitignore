@@ -12,3 +12,4 @@ application/yarn.error.log
 # Next.js / React folders.
 application/node_modules
 application/.next
+application/package-lock.json
