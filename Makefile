@@ -1,4 +1,4 @@
-.PHONY: default up stop restart down install lint
+.PHONY: default up stop restart down install lint dbpg migrate
 
 # Make sure the local file with docker-compose overrides exist.
 $(shell ! test -e \.\/.docker\/docker-compose\.override\.yml && cat \.\/.docker\/docker-compose\.override\.default\.yml > \.\/.docker\/docker-compose\.override\.yml)
@@ -44,9 +44,14 @@ lint:
 	@echo "${YELLOW}Checking coding styles...${COLOR_END}"
 	docker-compose run node yarn eslint --fix
 
-knex:
+dbpg:
 	@echo "${YELLOW}Connecting database...${COLOR_END}"
 	docker-compose run node  npm run knex
+
+migrate:
+	@echo "${YELLOW}Making migrate...${COLOR_END}"
+	docker-compose run node npm run migrate
+
 # https://stackoverflow.com/a/6273809/1826109
 %:
 	@:
