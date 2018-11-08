@@ -67,7 +67,14 @@ make up
 make migrate
 ```
 
-## 如何开发
+## 如何开发 & 反馈
+
+**开发帮助**
+请访问[项目WIKI](https://github.com/QUSEIT/nextjs-project-skel/wiki)获得更多帮助。
+
+
+**反馈**
+请访问[项目ISSUES](https://github.com/QUSEIT/nextjs-project-skel/issues)来提出你的需求或者反馈问题。
 
 
 ## 如何部署到生产环境
