@@ -91,3 +91,9 @@ make migrate
 **如何扩展更多部署方式**
 
 **开发完毕如何部署到生产环境**
+
+## 附录：关于我们
+
+- 公司简介: http://www.quseit.cn
+- 微信公众号: 优趣工作室
+- 微博: http://weibo.com/quseit
