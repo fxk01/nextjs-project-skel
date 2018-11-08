@@ -77,7 +77,11 @@ make migrate
 请访问[项目ISSUES](https://github.com/QUSEIT/nextjs-project-skel/issues)来提出你的需求或者反馈问题。
 
 
-## 如何部署到生产环境
+## 如何贡献
+
+请访问[项目管理工具](https://github.com/orgs/QUSEIT/projects)来根据上面的向导参与到项目贡献中
+
+
 
 
 ## 附：如何扩展
@@ -85,3 +89,5 @@ make migrate
 **如何扩展更多的开发库进去**
 
 **如何扩展更多部署方式**
+
+**开发完毕如何部署到生产环境**
