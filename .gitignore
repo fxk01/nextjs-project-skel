@@ -13,3 +13,4 @@ application/yarn.error.log
 application/node_modules
 application/.next
 application/package-lock.json
+application/yarn-lock.json

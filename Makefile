@@ -1,4 +1,4 @@
-.PHONY: default up stop restart down install lint migrate
+.PHONY: default up stop restart down install lint migrate db
 
 # Make sure the local file with docker-compose overrides exist.
 $(shell ! test -e \.\/.docker\/docker-compose\.override\.yml && cat \.\/.docker\/docker-compose\.override\.default\.yml > \.\/.docker\/docker-compose\.override\.yml)
@@ -47,6 +47,10 @@ lint:
 migrate:
 	@echo "${YELLOW}Making migrate...${COLOR_END}"
 	docker-compose run node npm run knex
+
+db:
+	@echo "${YELLOW}Entering database...${COLOR_END}"
+	docker exec -ti quseit_db psql -U postgres
 
 # https://stackoverflow.com/a/6273809/1826109
 %:
