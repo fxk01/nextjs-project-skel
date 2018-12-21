@@ -67,10 +67,21 @@ make up
 make migrate
 ```
 
-## 如何开发
+## 如何开发 & 反馈
+
+**开发帮助**
+请访问[项目WIKI](https://github.com/QUSEIT/nextjs-project-skel/wiki)获得更多帮助。
 
 
-## 如何部署到生产环境
+**反馈**
+请访问[项目ISSUES](https://github.com/QUSEIT/nextjs-project-skel/issues)来提出你的需求或者反馈问题。
+
+
+## 如何贡献
+
+请访问[项目管理工具](https://github.com/orgs/QUSEIT/projects)来根据上面的向导参与到项目贡献中
+
+
 
 
 ## 附：如何扩展
@@ -78,3 +89,11 @@ make migrate
 **如何扩展更多的开发库进去**
 
 **如何扩展更多部署方式**
+
+**开发完毕如何部署到生产环境**
+
+## 附录：关于我们
+
+- 公司简介: http://www.quseit.cn
+- 微信公众号: 优趣工作室
+- 微博: http://weibo.com/quseit
